@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Kuis CSS | CSS-Code</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/png" href="../icon/css-logo.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../bootstrap-4.3.1/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text center">
+                <div class="contain">
+                    <div id="quiz">
+                        <h1>Kuis</h1>
+                        <hr style="margin-bottom: 20px">
+
+                        <p id="question"></p>
+
+                        <div class="buttons">
+                            <button id="btn0"><span id="choice0"></span></button>
+                            <button id="btn1"><span id="choice1"></span></button>
+                            <button id="btn2"><span id="choice2"></span></button>
+                            <button id="btn3"><span id="choice3"></span></button>
+                        </div>
+
+                        <a id="link">
+                        </a>
+
+                        <hr style="margin-top: 40px">
+                        <footer>
+                            <p id="progress">Pertanyaan x dari y</p>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="quiz.js"></script>
+    <script src="question.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
